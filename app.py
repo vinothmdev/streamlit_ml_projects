@@ -1,0 +1,2 @@
+streamlit --version
+streamlit hello
