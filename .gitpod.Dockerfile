@@ -8,3 +8,4 @@ FROM gitpod/workspace-full
 USER gitpod
 
 RUN pip3 install pytest==4.4.2 mock pytest-testdox toml plotly pandas streamlit
+RUN export STREAMLIT_SERVER_PORT=6080 
